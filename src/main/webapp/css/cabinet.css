@@ -1,0 +1,70 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13.08.2015, 0:34:00
+    Author     : Aset
+*/
+
+.inner-wrap {
+  width: auto; }
+
+.move-right .inner-wrap {
+  -ms-transform: none;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+  margin-left: 9rem;
+  min-height: 50rem;
+}
+
+.left-off-canvas-menu {
+  -ms-transform: none;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+  position: fixed;
+  width: 0;
+  height: 100%; }
+
+.move-right .left-off-canvas-menu {
+  width: 9rem; }
+
+.move-right .exit-off-canvas {
+  display: none; }
+
+.left-off-canvas-toggle {
+  display: none;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-size: 3rem;
+  color: #333;
+  transition: all .25s ease-in-out; }
+  .left-off-canvas-toggle:focus {
+    color: #333; }
+  .left-off-canvas-toggle:hover {
+    color: #8c8c8c;
+    transition: all .25s ease-in-out; }
+
+.ad-block {
+  margin-bottom: 2rem; }
+
+.crap-canvas-menu{
+    margin-top: 5.5rem;
+    width: 9rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-style: inset;
+    background-color: #FAFAFA;
+    max-height: 37rem;
+}
+
+.crap-icon-bar{
+    background-color: rgb(50, 80, 110);
+}

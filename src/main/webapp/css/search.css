@@ -1,0 +1,56 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17.08.2015, 9:34:50
+    Author     : Aset
+*/
+
+ul.pagination {
+  display: block;
+  margin-left: -0.27778rem;
+  min-height: 1.33333rem; }
+  ul.pagination li {
+    color: #222222;
+    font-size: 0.77778rem;
+    height: 1.33333rem;
+    margin-left: 0.27778rem; }
+    ul.pagination li a, ul.pagination li button {
+      border-radius: 3px;
+      transition: background-color 300ms ease-out;
+      background: none;
+      color: #999999;
+      display: block;
+      font-size: 1em;
+      font-weight: normal;
+      line-height: inherit;
+      padding: 0.05556rem 0.55556rem 0.05556rem; }
+    ul.pagination li:hover a,
+    ul.pagination li a:focus, ul.pagination li:hover button,
+    ul.pagination li button:focus {
+      background: #e6e6e6; }
+    ul.pagination li.unavailable a, ul.pagination li.unavailable button {
+      cursor: default;
+      color: #999999;
+      pointer-events: none; }
+    ul.pagination li.unavailable:hover a, ul.pagination li.unavailable a:focus, ul.pagination li.unavailable:hover button, ul.pagination li.unavailable button:focus {
+      background: transparent; }
+    ul.pagination li.current a, ul.pagination li.current button {
+      background: #008CBA;
+      color: #FFFFFF;
+      cursor: default;
+      font-weight: bold; }
+      ul.pagination li.current a:hover, ul.pagination li.current a:focus, ul.pagination li.current button:hover, ul.pagination li.current button:focus {
+        background: #008CBA; }
+  ul.pagination li {
+    display: block;
+    float: left; }
+
+/* Pagination centred wrapper */
+.pagination-centered {
+  text-align: center; }
+  .pagination-centered ul.pagination li {
+    display: inline-block;
+    float: none; }

@@ -1,0 +1,86 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15.09.2015, 10:03:56
+    Author     : Aset
+*/
+
+/* 
+	Clean and crisp table styles
+	written by Mats Lindblad http://blogs.su.se/matlin/
+*/
+
+#tableid table {
+	font: normal 75%/150% Verdana, Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	border: 3px solid #f0f8ff;
+	border-top: 5px double #87CEFA;
+	border-bottom: 5px double #87CEFA;
+}
+#tableid th {
+	font: bold 1.1em/120% Verdana, Arial, Helvetica, sans-serif;
+	padding: 5px 10px;
+	font-variant: small-caps;
+	color: #047;
+	font-weight: bold;
+	text-align: left;
+	letter-spacing: -1px;
+}
+#tableid thead th {
+	border: 1px solid #87CEFA;
+	white-space: nowrap;
+	background: #F0F8FF;
+}
+#tableid tbody td ,tbody th {
+	padding: 5px 10px;
+	background: #fff;
+	color: #000;
+}
+#tableid tbody th {
+	color: #047;
+	font-weight: normal;
+	font-variant: normal;
+	font-size: 1em;
+}
+#tableid tbody tr.odd {
+	border: 1px solid #87CEFA;
+}
+#tableid tbody tr.odd td, tbody tr.odd th {
+	background: #F0F8FF;
+}
+#tableid tfoot td, tfoot th {
+	border: none;
+	padding-top: 10px;
+}
+#tableid caption {
+	font-family: "Georgia", serif;
+	letter-spacing: 5px;
+	font-style: italic;
+	text-align: left;
+	text-indent: 2em;
+	text-transform: uppercase;
+	font-size: 150%;
+	padding: 10px 0;
+	color: #047;
+}
+#tableid table a:link {
+	color: #DC143C;
+}
+#tableid table th a:link {
+	color: #047;
+	text-decoration: none;
+}
+#tableid table a:visited{
+	color: #036;
+	text-decoration: line-through;
+}
+#tableid table a:hover{
+	color: #000;
+	text-decoration:none;
+}
+#tableid table a:active{
+	color: #000;
+}

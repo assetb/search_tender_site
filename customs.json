@@ -1,0 +1,9 @@
+{
+    "elements": {},
+    "attributes": {
+        "download": {},
+        "update": {
+            "context": "select"
+        }
+    }
+}
